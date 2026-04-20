@@ -4,33 +4,53 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Dylan Rubin</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="design.css">
 </head>
 <body>
-  <main class="profile-card">
-    <section class="hero">
-      <div class="hero-copy">
-        <p class="eyebrow">Student Profile</p>
-        <h1>Dylan Rubin</h1>
-        <p class="tagline">Computer Science student with interests in cybersecurity, music, and creative technology.</p>
+  <main class="card">
+
+    <header class="header">
+      <div class="header-left">
+        <img class="portrait" src="me.jpg" alt="Dylan Rubin">
+        <div>
+          <h1>Dylan Rubin</h1>
+          <p class="role">Computer Science Student</p>
+        </div>
       </div>
-      <img class="portrait" src="me.jpg" alt="Photo of Dylan Rubin" width="220" height="220">
-    </section>
+      <a class="contact-btn" href="mailto:drubin03@syr.edu">Contact</a>
+    </header>
 
-    <section class="content">
-      <h2>About Me</h2>
-      <p class="about">
-        I am from New York.<br/>
-        My major is Computer Science.<br/>
-        I am interested in cybersecurity, technology, and music.<br/>
-        I enjoy DJing, producing music, and working on creative projects.
-      </p>
+    <div class="rule"></div>
 
-      <p class="genre-line">
-        Favorite genre:
-        <span class="music">Deep house</span>
-      </p>
-    </section>
+    <div class="grid">
+
+      <section class="section">
+        <h2 class="section-label">About</h2>
+        <p>Computer Science student at Syracuse University with a focus on cybersecurity and creative technology. Based in New York.</p>
+      </section>
+
+      <section class="section">
+        <h2 class="section-label">Education</h2>
+        <p class="edu-school">Syracuse University</p>
+        <p class="edu-degree">B.S. Computer Science</p>
+      </section>
+
+      <section class="section wide">
+        <h2 class="section-label">Skills &amp; Interests</h2>
+        <div class="tags">
+          <span class="tag">Cybersecurity</span>
+          <span class="tag">Web Development</span>
+          <span class="tag">Music Production</span>
+          <span class="tag">DJing</span>
+          <span class="tag">Creative Technology</span>
+          <span class="tag highlight">Deep House</span>
+        </div>
+      </section>
+
+    </div>
   </main>
 </body>
 </html>
